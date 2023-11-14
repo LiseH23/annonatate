@@ -1,0 +1,25 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-ENGLISH-00063/canvas/1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-ENGLISH-00063",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-ENGLISH-00063/canvas/1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2647.088134765625\" cy=\"3035.0911865234375\" r=\"1154.5515105009215\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3aac0c98-34a5-4836-8087-1466f355357a.json",
+    "motivation": "commenting"
+}
