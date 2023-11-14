@@ -3,9 +3,27 @@ canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-ENGLISH-00063/c
 order: 1
 ---
 {
-    "type": "Annotation",
-    "body": [],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "circle on Canterbury Tales frontpage",
+            "purpose": "commenting",
+            "creator": {
+                "id": "LiseH23",
+                "name": "LiseH"
+            },
+            "created": "2023-11-14T11:42:15.120Z",
+            "modified": "2023-11-14T11:42:25.497Z"
+        }
+    ],
+    "id": "3aac0c98-34a5-4836-8087-1466f355357a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2647.088134765625\" cy=\"3035.0911865234375\" r=\"1154.5515105009215\"></circle></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-ENGLISH-00063",
@@ -13,13 +31,7 @@ order: 1
             },
             "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-ENGLISH-00063/canvas/1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"2647.088134765625\" cy=\"3035.0911865234375\" r=\"1154.5515105009215\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3aac0c98-34a5-4836-8087-1466f355357a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
